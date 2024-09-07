@@ -31,7 +31,7 @@ class Rectangle{
     }
 public function info()
 {
-    echo'Rectangle [ lenght= '.$this->lenght.' widghth= '.$this->widght.' ]'.'<br>';
+  echo'Rectangle [ lenght= '.$this->getleght().' widghth= '.$this->getleght().' ]'.'<br>';
 }
 }
 $ob=new Rectangle(2.4,3.3);
